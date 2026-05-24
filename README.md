@@ -241,3 +241,91 @@ Internet access restored! 🎉**
 ---
 
 ## Root Cause Summary
+PROBLEM:
+Home-Laptop IP: 192.169.1.20
+Home Network:   192.168.1.0/24
+One digit difference!
+.169 vs .168
+Laptop was on wrong
+network entirely!
+SOLUTION:
+Changed IP to: 192.168.1.20
+Now on correct network!
+All connectivity restored! ✓
+
+---
+
+## Key Lessons Learned
+Always check IP settings
+first when troubleshooting
+network connectivity!
+Compare broken device
+with working device -
+differences reveal
+the problem!
+"Request timed out"
+means packet sent but
+no response received!
+Often means wrong network
+or firewall blocking!
+One wrong digit in
+IP address can completely
+isolate a device!
+Laptops brought from
+work to home often have
+wrong IP settings!
+Always check configuration
+when changing networks!
+Ping tests from bottom
+up (OSI model) help
+isolate exactly where
+connectivity breaks!
+
+---
+
+## Commands Used
+
+```powershell
+ping Home-Laptop
+ping Home-PC1
+ping Home-PC2
+ping 192.168.1.1
+```
+
+---
+
+## CompTIA A+ Objectives Covered
+Core 2 (220-1202):
+→ 5.7 Given a scenario,
+troubleshoot common
+wired and wireless
+network problems
+Core 1 (220-1201):
+→ 5.1 Given a scenario,
+troubleshoot common
+problems associated
+with networking
+
+---
+
+## Lab Completion
+
+![Final Score 100%]
+(screenshots/23-final-score-100percent.png)
+
+**Score: 100%** 🏆
+
+---
+
+## Certification Progress
+- CompTIA A+ Core 1 (220-1201)
+  → In Progress
+- CompTIA A+ Core 2 (220-1202)
+  → In Progress
+- Per Scholas AI-Enabled
+  IT Support Program
+  → Currently Enrolled
+- Google IT Support Certificate
+  → Complete
+- Google AI Essentials Certificate
+  → Complete
